@@ -1,0 +1,13 @@
+.item{
+    border: solid 1px black;
+    margin: 2px;
+    padding: 5px;
+}
+.draggable {
+    cursor: grab;
+    user-select: none;
+}
+
+.draggable:active{
+    cursor: grabbing;
+}

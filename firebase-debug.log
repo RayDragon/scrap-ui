@@ -1,0 +1,710 @@
+[debug] [2021-07-25T11:20:59.462Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T11:20:59.466Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-25T11:20:59.467Z] CLI Version:   9.14.0
+[debug] [2021-07-25T11:20:59.467Z] Platform:      win32
+[debug] [2021-07-25T11:20:59.467Z] Node Version:  v14.5.0
+[debug] [2021-07-25T11:20:59.473Z] Time:          Sun Jul 25 2021 16:50:59 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T11:20:59.473Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T11:20:59.489Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-07-25T11:20:59.558Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T11:20:59.560Z] > authorizing via signed-in user (mailtoraygovind@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\govin\Desktop\hackathon-projects\scrap-ui
+
+[debug] [2021-07-25T11:21:01.714Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-07-25T11:21:01.716Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
+[debug] [2021-07-25T11:21:26.993Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T11:21:26.998Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-25T11:21:26.999Z] CLI Version:   9.14.0
+[debug] [2021-07-25T11:21:26.999Z] Platform:      win32
+[debug] [2021-07-25T11:21:26.999Z] Node Version:  v14.5.0
+[debug] [2021-07-25T11:21:27.000Z] Time:          Sun Jul 25 2021 16:51:26 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T11:21:27.001Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T11:21:27.016Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T11:21:27.018Z] > authorizing via signed-in user (mailtoraygovind@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\govin\Desktop\hackathon-projects\scrap-ui
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-07-25T11:21:35.435Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T11:21:35.439Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T11:21:36.112Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 25 Jul 2021 11:21:36 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:21:36.148Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-07-25T11:21:37.257Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-07-25T11:21:37.258Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2021-07-25T11:22:06.205Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T11:22:06.209Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js logout
+[debug] [2021-07-25T11:22:06.211Z] CLI Version:   9.14.0
+[debug] [2021-07-25T11:22:06.211Z] Platform:      win32
+[debug] [2021-07-25T11:22:06.211Z] Node Version:  v14.5.0
+[debug] [2021-07-25T11:22:06.213Z] Time:          Sun Jul 25 2021 16:52:06 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T11:22:06.214Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T11:22:06.289Z] >>> HTTP REQUEST GET https://accounts.google.com/o/oauth2/revoke?token=1%2F%2F0gmasoG-Z6N37CgYIARAAGBASNwF-L9IrEZ4nFnVPP7Iz8rgPOgu001YaWB5_pIJkTWsEoORi018mBVV9eYJRDVnn6xoAJwfcuw4  
+ 
+[debug] [2021-07-25T11:22:06.911Z] <<< HTTP RESPONSE 200 {"date":"Sun, 25 Jul 2021 11:22:06 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"ESF","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:22:13.556Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T11:22:13.560Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2021-07-25T11:22:13.560Z] CLI Version:   9.14.0
+[debug] [2021-07-25T11:22:13.560Z] Platform:      win32
+[debug] [2021-07-25T11:22:13.561Z] Node Version:  v14.5.0
+[debug] [2021-07-25T11:22:13.562Z] Time:          Sun Jul 25 2021 16:52:13 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T11:22:13.562Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=396772723&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-07-25T11:22:27.835Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/0AX4XfWiKFPLLQ-MhVc2rGF9d630--A5_4EgP6JrGJSMFIBhXdhYxQ60hM8J0lvtG4Sh1nA","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2021-07-25T11:22:28.432Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 25 Jul 2021 11:22:28 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[debug] [2021-07-25T11:22:37.273Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T11:22:37.276Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-25T11:22:37.277Z] CLI Version:   9.14.0
+[debug] [2021-07-25T11:22:37.277Z] Platform:      win32
+[debug] [2021-07-25T11:22:37.278Z] Node Version:  v14.5.0
+[debug] [2021-07-25T11:22:37.280Z] Time:          Sun Jul 25 2021 16:52:37 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T11:22:37.280Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T11:22:37.291Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T11:22:37.294Z] > authorizing via signed-in user (bluedragon.ray@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\govin\Desktop\hackathon-projects\scrap-ui
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-07-25T11:22:44.156Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-07-25T11:22:45.100Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-07-25T11:22:45.101Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project ray-hobby-projects (hobby) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-07-25T11:23:01.939Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-07-25T11:23:02.315Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-07-25T11:23:02.318Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.8.0","browserURL":"https://www.gstatic.com/firebasejs/8.8.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.8.0/firebase.tgz"},"live":{"version":"8.8","browserURL":"https://www.gstatic.com/firebasejs/live/8.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/8.8.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.8.0/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.8.0/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.8.0/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.8.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.8.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.8.0/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[debug] [2021-07-25T11:23:30.227Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T11:23:30.230Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-07-25T11:23:30.231Z] CLI Version:   9.14.0
+[debug] [2021-07-25T11:23:30.231Z] Platform:      win32
+[debug] [2021-07-25T11:23:30.232Z] Node Version:  v14.5.0
+[debug] [2021-07-25T11:23:30.233Z] Time:          Sun Jul 25 2021 16:53:30 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T11:23:30.233Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T11:23:30.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T11:23:30.251Z] > authorizing via signed-in user (bluedragon.ray@gmail.com)
+[debug] [2021-07-25T11:23:30.252Z] [iam] checking project ray-hobby-projects for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-25T11:23:30.256Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T11:23:30.257Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T11:23:30.742Z] <<< HTTP RESPONSE 200 {"date":"Sun, 25 Jul 2021 11:23:30 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:23:30.786Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ray-hobby-projects:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-25T11:23:33.070Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 11:23:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1395","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:23:33.074Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T11:23:33.075Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T11:23:33.512Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 25 Jul 2021 11:23:33 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:23:33.585Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects [none]
+[debug] [2021-07-25T11:23:34.310Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects 200
+[debug] [2021-07-25T11:23:34.311Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects {"projectId":"ray-hobby-projects","projectNumber":"484685860277","displayName":"hobby","name":"projects/ray-hobby-projects","resources":{"hostingSite":"ray-hobby-projects"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'ray-hobby-projects'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-07-25T11:23:34.319Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T11:23:34.320Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T11:23:34.739Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 25 Jul 2021 11:23:34 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:23:34.799Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-07-25T11:23:37.547Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 11:23:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[ray-hobby-projects]: beginning deploy... 
+[info] i  hosting[ray-hobby-projects]: found 21 files in build 
+[debug] [2021-07-25T11:23:37.604Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2021-07-25T11:23:37.846Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T11:23:37.847Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T11:23:37.852Z] [hosting] hash cache [YnVpbGQ] stored for 21 files
+[debug] [2021-07-25T11:23:37.853Z] [hosting][hash queue][FINAL] {"max":200,"min":52,"avg":75.33333333333333,"active":0,"complete":21,"success":21,"errored":0,"retried":0,"total":21,"elapsed":247}
+[debug] [2021-07-25T11:23:38.297Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 25 Jul 2021 11:23:38 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:23:38.322Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9:populateFiles [none]
+[debug] [2021-07-25T11:23:38.324Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9:populateFiles {"files":{"/asset-manifest.json":"d30b8a86c634e6e845173d452b0f6a4bff026d8bd5af0d9c5b9ef2584bcb7cec","/index.html":"fbfd07cd64ce6935e24974ece9e42b5cc22b9c55a0b07c62ae4a5807be842d36","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/static/css/main.cd87d892.chunk.css":"c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c","/static/css/main.cd87d892.chunk.css.map":"3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709","/static/js/2.a36f6ac8.chunk.js.LICENSE.txt":"ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62","/assets/jquery-ui.min.css":"9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4","/static/js/3.2802143c.chunk.js":"78bb372ef048f5c8630942960e52ec7426a09986bcfcf5d4eeb8a260b8d1365e","/static/js/3.2802143c.chunk.js.map":"fa5ee206d681b835346d24ec731e7b33e4035a00e9a74bc4e1ac5c93cd927dfa","/static/js/main.0dc61287.chunk.js":"2ec8acd5592636942af8630a9c6dab7f356a61e9133a8b618bdae64cbe13fd94","/static/js/main.0dc61287.chunk.js.map":"fd032907b717ffc22a68428e4aaed80cf558b823578936ae9e78779c29ffc8c2","/static/js/runtime-main.d87ad264.js":"213cdb440f89b19802306a45c96511054586cef4e92db9f2154358d77d6e9975","/static/js/runtime-main.d87ad264.js.map":"8f0a6476a2297fa1316ea6261f9c871828c26f9de78e0a8da0fb39d2aa11c712","/static/js/2.a36f6ac8.chunk.js":"550be76a81a7aba897021fc6e29edcb48dfdd239a9c73711dd16ccf9aefcc913","/assets/jquery-ui.min.js":"f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08","/assets/jquery.js":"315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418","/static/js/2.a36f6ac8.chunk.js.map":"602ae1b146d1a60f44a950454687760a70a8abcee4ca7f67b012a3e03f20efe8"}}
+[debug] [2021-07-25T11:23:40.617Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9:populateFiles 200
+[debug] [2021-07-25T11:23:40.618Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9:populateFiles {"uploadRequiredHashes":["ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","2ec8acd5592636942af8630a9c6dab7f356a61e9133a8b618bdae64cbe13fd94","aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","8f0a6476a2297fa1316ea6261f9c871828c26f9de78e0a8da0fb39d2aa11c712","3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","fbfd07cd64ce6935e24974ece9e42b5cc22b9c55a0b07c62ae4a5807be842d36","eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","550be76a81a7aba897021fc6e29edcb48dfdd239a9c73711dd16ccf9aefcc913","d30b8a86c634e6e845173d452b0f6a4bff026d8bd5af0d9c5b9ef2584bcb7cec","c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c","3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709","315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418","f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08","9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4","602ae1b146d1a60f44a950454687760a70a8abcee4ca7f67b012a3e03f20efe8","fd032907b717ffc22a68428e4aaed80cf558b823578936ae9e78779c29ffc8c2","bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62","78bb372ef048f5c8630942960e52ec7426a09986bcfcf5d4eeb8a260b8d1365e","213cdb440f89b19802306a45c96511054586cef4e92db9f2154358d77d6e9975","fa5ee206d681b835346d24ec731e7b33e4035a00e9a74bc4e1ac5c93cd927dfa"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files"}
+[debug] [2021-07-25T11:23:40.649Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [none]
+[debug] [2021-07-25T11:23:40.649Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2021-07-25T11:23:40.653Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/2ec8acd5592636942af8630a9c6dab7f356a61e9133a8b618bdae64cbe13fd94 [none]
+[debug] [2021-07-25T11:23:40.655Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/2ec8acd5592636942af8630a9c6dab7f356a61e9133a8b618bdae64cbe13fd94 [stream]
+[debug] [2021-07-25T11:23:40.658Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [none]
+[debug] [2021-07-25T11:23:40.659Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2021-07-25T11:23:40.662Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/8f0a6476a2297fa1316ea6261f9c871828c26f9de78e0a8da0fb39d2aa11c712 [none]
+[debug] [2021-07-25T11:23:40.663Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/8f0a6476a2297fa1316ea6261f9c871828c26f9de78e0a8da0fb39d2aa11c712 [stream]
+[debug] [2021-07-25T11:23:40.666Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [none]
+[debug] [2021-07-25T11:23:40.668Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2021-07-25T11:23:40.670Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fbfd07cd64ce6935e24974ece9e42b5cc22b9c55a0b07c62ae4a5807be842d36 [none]
+[debug] [2021-07-25T11:23:40.671Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fbfd07cd64ce6935e24974ece9e42b5cc22b9c55a0b07c62ae4a5807be842d36 [stream]
+[debug] [2021-07-25T11:23:40.676Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [none]
+[debug] [2021-07-25T11:23:40.677Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2021-07-25T11:23:40.679Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/550be76a81a7aba897021fc6e29edcb48dfdd239a9c73711dd16ccf9aefcc913 [none]
+[debug] [2021-07-25T11:23:40.680Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/550be76a81a7aba897021fc6e29edcb48dfdd239a9c73711dd16ccf9aefcc913 [stream]
+[debug] [2021-07-25T11:23:40.683Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/d30b8a86c634e6e845173d452b0f6a4bff026d8bd5af0d9c5b9ef2584bcb7cec [none]
+[debug] [2021-07-25T11:23:40.683Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/d30b8a86c634e6e845173d452b0f6a4bff026d8bd5af0d9c5b9ef2584bcb7cec [stream]
+[debug] [2021-07-25T11:23:40.686Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c [none]
+[debug] [2021-07-25T11:23:40.687Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c [stream]
+[debug] [2021-07-25T11:23:40.691Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709 [none]
+[debug] [2021-07-25T11:23:40.691Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709 [stream]
+[debug] [2021-07-25T11:23:40.710Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418 [none]
+[debug] [2021-07-25T11:23:40.711Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418 [stream]
+[debug] [2021-07-25T11:23:40.719Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08 [none]
+[debug] [2021-07-25T11:23:40.719Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08 [stream]
+[debug] [2021-07-25T11:23:40.724Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4 [none]
+[debug] [2021-07-25T11:23:40.725Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4 [stream]
+[debug] [2021-07-25T11:23:40.728Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/602ae1b146d1a60f44a950454687760a70a8abcee4ca7f67b012a3e03f20efe8 [none]
+[debug] [2021-07-25T11:23:40.729Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/602ae1b146d1a60f44a950454687760a70a8abcee4ca7f67b012a3e03f20efe8 [stream]
+[debug] [2021-07-25T11:23:40.730Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fd032907b717ffc22a68428e4aaed80cf558b823578936ae9e78779c29ffc8c2 [none]
+[debug] [2021-07-25T11:23:40.731Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fd032907b717ffc22a68428e4aaed80cf558b823578936ae9e78779c29ffc8c2 [stream]
+[debug] [2021-07-25T11:23:40.734Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [none]
+[debug] [2021-07-25T11:23:40.734Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2021-07-25T11:23:40.736Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62 [none]
+[debug] [2021-07-25T11:23:40.737Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62 [stream]
+[debug] [2021-07-25T11:23:40.740Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/78bb372ef048f5c8630942960e52ec7426a09986bcfcf5d4eeb8a260b8d1365e [none]
+[debug] [2021-07-25T11:23:40.740Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/78bb372ef048f5c8630942960e52ec7426a09986bcfcf5d4eeb8a260b8d1365e [stream]
+[debug] [2021-07-25T11:23:40.742Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/213cdb440f89b19802306a45c96511054586cef4e92db9f2154358d77d6e9975 [none]
+[debug] [2021-07-25T11:23:40.743Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/213cdb440f89b19802306a45c96511054586cef4e92db9f2154358d77d6e9975 [stream]
+[debug] [2021-07-25T11:23:40.745Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fa5ee206d681b835346d24ec731e7b33e4035a00e9a74bc4e1ac5c93cd927dfa [none]
+[debug] [2021-07-25T11:23:40.745Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fa5ee206d681b835346d24ec731e7b33e4035a00e9a74bc4e1ac5c93cd927dfa [stream]
+[debug] [2021-07-25T11:23:40.748Z] [hosting][populate queue][FINAL] {"max":2802,"min":2802,"avg":2802,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2902}
+[debug] [2021-07-25T11:23:40.749Z] [hosting] uploads queued: 21
+[debug] [2021-07-25T11:23:42.988Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 200
+[debug] [2021-07-25T11:23:42.989Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9 [stream]
+[debug] [2021-07-25T11:23:42.992Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b 200
+[debug] [2021-07-25T11:23:42.993Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b [stream]
+[debug] [2021-07-25T11:23:42.996Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a 200
+[debug] [2021-07-25T11:23:42.996Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2021-07-25T11:23:42.999Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 200
+[debug] [2021-07-25T11:23:43.000Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2021-07-25T11:23:43.004Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 200
+[debug] [2021-07-25T11:23:43.006Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331 [stream]
+[debug] [2021-07-25T11:23:43.008Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/78bb372ef048f5c8630942960e52ec7426a09986bcfcf5d4eeb8a260b8d1365e 200
+[debug] [2021-07-25T11:23:43.009Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/78bb372ef048f5c8630942960e52ec7426a09986bcfcf5d4eeb8a260b8d1365e [stream]
+[debug] [2021-07-25T11:23:43.011Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fa5ee206d681b835346d24ec731e7b33e4035a00e9a74bc4e1ac5c93cd927dfa 200
+[debug] [2021-07-25T11:23:43.012Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fa5ee206d681b835346d24ec731e7b33e4035a00e9a74bc4e1ac5c93cd927dfa [stream]
+[debug] [2021-07-25T11:23:43.014Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/8f0a6476a2297fa1316ea6261f9c871828c26f9de78e0a8da0fb39d2aa11c712 200
+[debug] [2021-07-25T11:23:43.015Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/8f0a6476a2297fa1316ea6261f9c871828c26f9de78e0a8da0fb39d2aa11c712 [stream]
+[debug] [2021-07-25T11:23:43.017Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4 200
+[debug] [2021-07-25T11:23:43.018Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4 [stream]
+[debug] [2021-07-25T11:23:43.020Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/2ec8acd5592636942af8630a9c6dab7f356a61e9133a8b618bdae64cbe13fd94 200
+[debug] [2021-07-25T11:23:43.021Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/2ec8acd5592636942af8630a9c6dab7f356a61e9133a8b618bdae64cbe13fd94 [stream]
+[debug] [2021-07-25T11:23:43.023Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62 200
+[debug] [2021-07-25T11:23:43.025Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62 [stream]
+[debug] [2021-07-25T11:23:43.028Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fd032907b717ffc22a68428e4aaed80cf558b823578936ae9e78779c29ffc8c2 200
+[debug] [2021-07-25T11:23:43.029Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fd032907b717ffc22a68428e4aaed80cf558b823578936ae9e78779c29ffc8c2 [stream]
+[debug] [2021-07-25T11:23:43.033Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fbfd07cd64ce6935e24974ece9e42b5cc22b9c55a0b07c62ae4a5807be842d36 200
+[debug] [2021-07-25T11:23:43.033Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/fbfd07cd64ce6935e24974ece9e42b5cc22b9c55a0b07c62ae4a5807be842d36 [stream]
+[debug] [2021-07-25T11:23:43.037Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418 200
+[debug] [2021-07-25T11:23:43.040Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418 [stream]
+[debug] [2021-07-25T11:23:43.043Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709 200
+[debug] [2021-07-25T11:23:43.044Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709 [stream]
+[debug] [2021-07-25T11:23:43.046Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/d30b8a86c634e6e845173d452b0f6a4bff026d8bd5af0d9c5b9ef2584bcb7cec 200
+[debug] [2021-07-25T11:23:43.048Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/d30b8a86c634e6e845173d452b0f6a4bff026d8bd5af0d9c5b9ef2584bcb7cec [stream]
+[debug] [2021-07-25T11:23:43.051Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/213cdb440f89b19802306a45c96511054586cef4e92db9f2154358d77d6e9975 200
+[debug] [2021-07-25T11:23:43.052Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/213cdb440f89b19802306a45c96511054586cef4e92db9f2154358d77d6e9975 [stream]
+[debug] [2021-07-25T11:23:43.058Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c 200
+[debug] [2021-07-25T11:23:43.058Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c [stream]
+[debug] [2021-07-25T11:23:43.064Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/550be76a81a7aba897021fc6e29edcb48dfdd239a9c73711dd16ccf9aefcc913 200
+[debug] [2021-07-25T11:23:43.068Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/550be76a81a7aba897021fc6e29edcb48dfdd239a9c73711dd16ccf9aefcc913 [stream]
+[debug] [2021-07-25T11:23:43.138Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/602ae1b146d1a60f44a950454687760a70a8abcee4ca7f67b012a3e03f20efe8 200
+[debug] [2021-07-25T11:23:43.139Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/602ae1b146d1a60f44a950454687760a70a8abcee4ca7f67b012a3e03f20efe8 [stream]
+[debug] [2021-07-25T11:23:43.148Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08 200
+[debug] [2021-07-25T11:23:43.149Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9/files/f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08 [stream]
+[debug] [2021-07-25T11:23:43.152Z] [hosting][upload queue][FINAL] {"max":2519,"min":2363,"avg":2406.190476190476,"active":0,"complete":21,"success":21,"errored":0,"retried":0,"total":21,"elapsed":2530}
+[info] +  hosting[ray-hobby-projects]: file upload complete 
+[debug] [2021-07-25T11:23:43.155Z] [hosting] deploy completed after 5603ms
+[debug] [2021-07-25T11:23:43.157Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "ray-hobby-projects"
+    },
+    "site": "ray-hobby-projects",
+    "version": "sites/ray-hobby-projects/versions/1ae47663e8fdc8b9"
+  }
+]
+[info] i  hosting[ray-hobby-projects]: finalizing version... 
+[debug] [2021-07-25T11:23:43.160Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T11:23:43.160Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T11:23:43.590Z] <<< HTTP RESPONSE 200 {"date":"Sun, 25 Jul 2021 11:23:43 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:23:43.612Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/1ae47663e8fdc8b9?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-07-25T11:23:45.867Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 11:23:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T11:23:45.869Z] [hosting] finalized version for ray-hobby-projects: {"name":"sites/ray-hobby-projects/versions/1ae47663e8fdc8b9","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-07-25T11:23:37.009365Z","createUser":{"email":"bluedragon.ray@gmail.com"},"finalizeTime":"2021-07-25T11:23:45.601968Z","finalizeUser":{"email":"bluedragon.ray@gmail.com"}}
+[info] +  hosting[ray-hobby-projects]: version finalized 
+[info] i  hosting[ray-hobby-projects]: releasing new version... 
+[debug] [2021-07-25T11:23:45.875Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/releases?version_name=sites/ray-hobby-projects/versions/1ae47663e8fdc8b9  
+ {"message":null}
+[debug] [2021-07-25T11:23:48.108Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 11:23:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:32:40.027Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T14:32:40.031Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-07-25T14:32:40.032Z] CLI Version:   9.14.0
+[debug] [2021-07-25T14:32:40.032Z] Platform:      win32
+[debug] [2021-07-25T14:32:40.032Z] Node Version:  v14.5.0
+[debug] [2021-07-25T14:32:40.034Z] Time:          Sun Jul 25 2021 20:02:40 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T14:32:40.034Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T14:32:40.051Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T14:32:40.053Z] > authorizing via signed-in user (bluedragon.ray@gmail.com)
+[debug] [2021-07-25T14:32:40.053Z] [iam] checking project ray-hobby-projects for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-25T14:32:40.058Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T14:32:40.059Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T14:32:41.349Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 25 Jul 2021 14:32:41 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:32:41.395Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ray-hobby-projects:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-25T14:32:44.218Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 14:32:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1467","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:32:44.228Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T14:32:44.230Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T14:32:44.659Z] <<< HTTP RESPONSE 200 {"date":"Sun, 25 Jul 2021 14:32:44 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:32:44.699Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects [none]
+[debug] [2021-07-25T14:32:46.272Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects 200
+[debug] [2021-07-25T14:32:46.274Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects {"projectId":"ray-hobby-projects","projectNumber":"484685860277","displayName":"hobby","name":"projects/ray-hobby-projects","resources":{"hostingSite":"ray-hobby-projects"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'ray-hobby-projects'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-07-25T14:32:46.286Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T14:32:46.286Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T14:32:46.771Z] <<< HTTP RESPONSE 200 {"date":"Sun, 25 Jul 2021 14:32:46 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:32:46.819Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-07-25T14:32:50.418Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 14:32:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[ray-hobby-projects]: beginning deploy... 
+[info] i  hosting[ray-hobby-projects]: found 21 files in build 
+[debug] [2021-07-25T14:32:50.639Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T14:32:50.639Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T14:32:50.643Z] [hosting] hash cache [YnVpbGQ] stored for 21 files
+[debug] [2021-07-25T14:32:50.644Z] [hosting][hash queue][FINAL] {"max":158,"min":13,"avg":30.19047619047619,"active":0,"complete":21,"success":21,"errored":0,"retried":0,"total":21,"elapsed":174}
+[debug] [2021-07-25T14:32:51.376Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Sun, 25 Jul 2021 14:32:51 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:32:51.399Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/72e98794e3f6cf34:populateFiles [none]
+[debug] [2021-07-25T14:32:51.400Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/72e98794e3f6cf34:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/assets/jquery-ui.min.css":"9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4","/assets/jquery-ui.min.js":"f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08","/assets/jquery.js":"315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418","/asset-manifest.json":"54dad00e8090ac0118b972ff5b9d29006a44dc0b6a1ebe6143dc37f53d0b44d4","/index.html":"02acadaa76ae0dde7867b6469d5a4cea2da44a5f0efd4a057b5dfa41190f432d","/static/css/main.cd87d892.chunk.css":"c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c","/static/css/main.cd87d892.chunk.css.map":"3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709","/static/js/2.04559715.chunk.js.LICENSE.txt":"ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62","/static/js/3.6e3d0782.chunk.js":"cabca528a643c7a4d672fd2eb5c4f43a415fabe21ef6c19fc3cef9f046982cd1","/static/js/3.6e3d0782.chunk.js.map":"91d1f7876a99bf97d781178455f83655bd92bba665ac19b15e496ebf5c4bb3f4","/static/js/main.c227de2e.chunk.js":"72df6507c16a63810213435bc6f29118f930aceb7f15eebc7c3eb4ee4442e9bc","/static/js/runtime-main.d8294a23.js":"3d66b8f0a1c964739499f25c6b283841d9626fc3c361c5bfa8010a9463e5b6bb","/static/js/runtime-main.d8294a23.js.map":"ca6e38fc73650605e903e0b59e8a6a283b2b071751f3def936f59b0953c14587","/static/js/main.c227de2e.chunk.js.map":"a4be7ea2e2d2f95a7ad5a28bd414d7e5f03ceb69d7c821bc000716c6e7691f8a","/static/js/2.04559715.chunk.js":"26f2cbceabf8759430b08b55bfacbd90c6439f1b67602ef11953825ac78c4f87","/static/js/2.04559715.chunk.js.map":"8b537a7b540f77dbe130056188050f011b88b3f8fa31b2f04442e822bf68d974"}}
+[debug] [2021-07-25T14:32:53.626Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/72e98794e3f6cf34:populateFiles 200
+[debug] [2021-07-25T14:32:53.627Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/72e98794e3f6cf34:populateFiles {"uploadRequiredHashes":["02acadaa76ae0dde7867b6469d5a4cea2da44a5f0efd4a057b5dfa41190f432d","54dad00e8090ac0118b972ff5b9d29006a44dc0b6a1ebe6143dc37f53d0b44d4","a4be7ea2e2d2f95a7ad5a28bd414d7e5f03ceb69d7c821bc000716c6e7691f8a","cabca528a643c7a4d672fd2eb5c4f43a415fabe21ef6c19fc3cef9f046982cd1","91d1f7876a99bf97d781178455f83655bd92bba665ac19b15e496ebf5c4bb3f4","ca6e38fc73650605e903e0b59e8a6a283b2b071751f3def936f59b0953c14587","8b537a7b540f77dbe130056188050f011b88b3f8fa31b2f04442e822bf68d974","26f2cbceabf8759430b08b55bfacbd90c6439f1b67602ef11953825ac78c4f87","72df6507c16a63810213435bc6f29118f930aceb7f15eebc7c3eb4ee4442e9bc","3d66b8f0a1c964739499f25c6b283841d9626fc3c361c5bfa8010a9463e5b6bb"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files"}
+[debug] [2021-07-25T14:32:53.644Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/02acadaa76ae0dde7867b6469d5a4cea2da44a5f0efd4a057b5dfa41190f432d [none]
+[debug] [2021-07-25T14:32:53.646Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/02acadaa76ae0dde7867b6469d5a4cea2da44a5f0efd4a057b5dfa41190f432d [stream]
+[debug] [2021-07-25T14:32:53.652Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/54dad00e8090ac0118b972ff5b9d29006a44dc0b6a1ebe6143dc37f53d0b44d4 [none]
+[debug] [2021-07-25T14:32:53.653Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/54dad00e8090ac0118b972ff5b9d29006a44dc0b6a1ebe6143dc37f53d0b44d4 [stream]
+[debug] [2021-07-25T14:32:53.659Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/a4be7ea2e2d2f95a7ad5a28bd414d7e5f03ceb69d7c821bc000716c6e7691f8a [none]
+[debug] [2021-07-25T14:32:53.660Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/a4be7ea2e2d2f95a7ad5a28bd414d7e5f03ceb69d7c821bc000716c6e7691f8a [stream]
+[debug] [2021-07-25T14:32:53.662Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/cabca528a643c7a4d672fd2eb5c4f43a415fabe21ef6c19fc3cef9f046982cd1 [none]
+[debug] [2021-07-25T14:32:53.662Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/cabca528a643c7a4d672fd2eb5c4f43a415fabe21ef6c19fc3cef9f046982cd1 [stream]
+[debug] [2021-07-25T14:32:53.665Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/91d1f7876a99bf97d781178455f83655bd92bba665ac19b15e496ebf5c4bb3f4 [none]
+[debug] [2021-07-25T14:32:53.666Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/91d1f7876a99bf97d781178455f83655bd92bba665ac19b15e496ebf5c4bb3f4 [stream]
+[debug] [2021-07-25T14:32:53.669Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/ca6e38fc73650605e903e0b59e8a6a283b2b071751f3def936f59b0953c14587 [none]
+[debug] [2021-07-25T14:32:53.669Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/ca6e38fc73650605e903e0b59e8a6a283b2b071751f3def936f59b0953c14587 [stream]
+[debug] [2021-07-25T14:32:53.672Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/8b537a7b540f77dbe130056188050f011b88b3f8fa31b2f04442e822bf68d974 [none]
+[debug] [2021-07-25T14:32:53.673Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/8b537a7b540f77dbe130056188050f011b88b3f8fa31b2f04442e822bf68d974 [stream]
+[debug] [2021-07-25T14:32:53.676Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/26f2cbceabf8759430b08b55bfacbd90c6439f1b67602ef11953825ac78c4f87 [none]
+[debug] [2021-07-25T14:32:53.677Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/26f2cbceabf8759430b08b55bfacbd90c6439f1b67602ef11953825ac78c4f87 [stream]
+[debug] [2021-07-25T14:32:53.686Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/72df6507c16a63810213435bc6f29118f930aceb7f15eebc7c3eb4ee4442e9bc [none]
+[debug] [2021-07-25T14:32:53.687Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/72df6507c16a63810213435bc6f29118f930aceb7f15eebc7c3eb4ee4442e9bc [stream]
+[debug] [2021-07-25T14:32:53.689Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/3d66b8f0a1c964739499f25c6b283841d9626fc3c361c5bfa8010a9463e5b6bb [none]
+[debug] [2021-07-25T14:32:53.689Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/3d66b8f0a1c964739499f25c6b283841d9626fc3c361c5bfa8010a9463e5b6bb [stream]
+[debug] [2021-07-25T14:32:53.693Z] [hosting][populate queue][FINAL] {"max":3006,"min":3006,"avg":3006,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":3055}
+[debug] [2021-07-25T14:32:53.694Z] [hosting] uploads queued: 10
+[debug] [2021-07-25T14:32:58.470Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/91d1f7876a99bf97d781178455f83655bd92bba665ac19b15e496ebf5c4bb3f4 200
+[debug] [2021-07-25T14:32:58.471Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/91d1f7876a99bf97d781178455f83655bd92bba665ac19b15e496ebf5c4bb3f4 [stream]
+[debug] [2021-07-25T14:32:58.475Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/72df6507c16a63810213435bc6f29118f930aceb7f15eebc7c3eb4ee4442e9bc 200
+[debug] [2021-07-25T14:32:58.476Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/72df6507c16a63810213435bc6f29118f930aceb7f15eebc7c3eb4ee4442e9bc [stream]
+[debug] [2021-07-25T14:32:58.478Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/cabca528a643c7a4d672fd2eb5c4f43a415fabe21ef6c19fc3cef9f046982cd1 200
+[debug] [2021-07-25T14:32:58.479Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/cabca528a643c7a4d672fd2eb5c4f43a415fabe21ef6c19fc3cef9f046982cd1 [stream]
+[debug] [2021-07-25T14:32:58.481Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/ca6e38fc73650605e903e0b59e8a6a283b2b071751f3def936f59b0953c14587 200
+[debug] [2021-07-25T14:32:58.482Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/ca6e38fc73650605e903e0b59e8a6a283b2b071751f3def936f59b0953c14587 [stream]
+[debug] [2021-07-25T14:32:58.485Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/02acadaa76ae0dde7867b6469d5a4cea2da44a5f0efd4a057b5dfa41190f432d 200
+[debug] [2021-07-25T14:32:58.485Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/02acadaa76ae0dde7867b6469d5a4cea2da44a5f0efd4a057b5dfa41190f432d [stream]
+[debug] [2021-07-25T14:32:58.627Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/a4be7ea2e2d2f95a7ad5a28bd414d7e5f03ceb69d7c821bc000716c6e7691f8a 200
+[debug] [2021-07-25T14:32:58.628Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/a4be7ea2e2d2f95a7ad5a28bd414d7e5f03ceb69d7c821bc000716c6e7691f8a [stream]
+[debug] [2021-07-25T14:32:59.054Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/3d66b8f0a1c964739499f25c6b283841d9626fc3c361c5bfa8010a9463e5b6bb 200
+[debug] [2021-07-25T14:32:59.058Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/3d66b8f0a1c964739499f25c6b283841d9626fc3c361c5bfa8010a9463e5b6bb [stream]
+[debug] [2021-07-25T14:32:59.061Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/54dad00e8090ac0118b972ff5b9d29006a44dc0b6a1ebe6143dc37f53d0b44d4 200
+[debug] [2021-07-25T14:32:59.062Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/54dad00e8090ac0118b972ff5b9d29006a44dc0b6a1ebe6143dc37f53d0b44d4 [stream]
+[debug] [2021-07-25T14:32:59.395Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/26f2cbceabf8759430b08b55bfacbd90c6439f1b67602ef11953825ac78c4f87 200
+[debug] [2021-07-25T14:32:59.396Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/26f2cbceabf8759430b08b55bfacbd90c6439f1b67602ef11953825ac78c4f87 [stream]
+[debug] [2021-07-25T14:33:00.221Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/8b537a7b540f77dbe130056188050f011b88b3f8fa31b2f04442e822bf68d974 200
+[debug] [2021-07-25T14:33:00.225Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/72e98794e3f6cf34/files/8b537a7b540f77dbe130056188050f011b88b3f8fa31b2f04442e822bf68d974 [stream]
+[debug] [2021-07-25T14:33:00.226Z] [hosting][upload queue][FINAL] {"max":6586,"min":4834,"avg":5240.3,"active":0,"complete":10,"success":10,"errored":0,"retried":0,"total":10,"elapsed":6597}
+[info] +  hosting[ray-hobby-projects]: file upload complete 
+[debug] [2021-07-25T14:33:00.228Z] [hosting] deploy completed after 9805ms
+[debug] [2021-07-25T14:33:00.230Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "ray-hobby-projects"
+    },
+    "site": "ray-hobby-projects",
+    "version": "sites/ray-hobby-projects/versions/72e98794e3f6cf34"
+  }
+]
+[info] i  hosting[ray-hobby-projects]: finalizing version... 
+[debug] [2021-07-25T14:33:00.233Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T14:33:00.235Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T14:33:00.728Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 25 Jul 2021 14:33:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:33:00.752Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/72e98794e3f6cf34?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-07-25T14:33:02.887Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 14:33:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T14:33:02.891Z] [hosting] finalized version for ray-hobby-projects: {"name":"sites/ray-hobby-projects/versions/72e98794e3f6cf34","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-07-25T14:32:50.265164Z","createUser":{"email":"bluedragon.ray@gmail.com"},"finalizeTime":"2021-07-25T14:33:02.908690Z","finalizeUser":{"email":"bluedragon.ray@gmail.com"}}
+[info] +  hosting[ray-hobby-projects]: version finalized 
+[info] i  hosting[ray-hobby-projects]: releasing new version... 
+[debug] [2021-07-25T14:33:02.893Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/releases?version_name=sites/ray-hobby-projects/versions/72e98794e3f6cf34  
+ {"message":null}
+[debug] [2021-07-25T14:33:05.104Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 14:33:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:00:45.032Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T21:00:45.036Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-07-25T21:00:45.037Z] CLI Version:   9.14.0
+[debug] [2021-07-25T21:00:45.038Z] Platform:      win32
+[debug] [2021-07-25T21:00:45.038Z] Node Version:  v14.5.0
+[debug] [2021-07-25T21:00:45.043Z] Time:          Mon Jul 26 2021 02:30:45 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T21:00:45.043Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T21:00:45.059Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T21:00:45.062Z] > authorizing via signed-in user (bluedragon.ray@gmail.com)
+[debug] [2021-07-25T21:00:45.062Z] [iam] checking project ray-hobby-projects for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-25T21:00:45.067Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T21:00:45.067Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T21:00:45.644Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 25 Jul 2021 21:00:46 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:00:45.747Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ray-hobby-projects:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-25T21:00:48.028Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 21:00:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1456","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:00:48.032Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T21:00:48.033Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T21:00:48.476Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 25 Jul 2021 21:00:48 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:00:48.515Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects [none]
+[debug] [2021-07-25T21:00:49.331Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects 200
+[debug] [2021-07-25T21:00:49.338Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects {"projectId":"ray-hobby-projects","projectNumber":"484685860277","displayName":"hobby","name":"projects/ray-hobby-projects","resources":{"hostingSite":"ray-hobby-projects"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'ray-hobby-projects'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-07-25T21:00:49.350Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T21:00:49.351Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T21:00:49.791Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 25 Jul 2021 21:00:50 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:00:49.825Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-07-25T21:00:52.518Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 21:00:52 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[ray-hobby-projects]: beginning deploy... 
+[info] i  hosting[ray-hobby-projects]: found 21 files in build 
+[debug] [2021-07-25T21:00:52.750Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T21:00:52.751Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T21:00:52.754Z] [hosting] hash cache [YnVpbGQ] stored for 21 files
+[debug] [2021-07-25T21:00:52.755Z] [hosting][hash queue][FINAL] {"max":167,"min":13,"avg":31.285714285714285,"active":0,"complete":21,"success":21,"errored":0,"retried":0,"total":21,"elapsed":185}
+[debug] [2021-07-25T21:00:53.217Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 25 Jul 2021 21:00:53 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:00:53.239Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/755a9b457b0be81d:populateFiles [none]
+[debug] [2021-07-25T21:00:53.239Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/755a9b457b0be81d:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/assets/jquery-ui.min.css":"9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4","/assets/jquery-ui.min.js":"f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08","/assets/jquery.js":"315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418","/asset-manifest.json":"07b4cfb75691a75ed56ffa349609805d9e7c9ab9282824b543606d271e5240f9","/index.html":"f8d5a793a9f62faec723d0be1aa72016ddc48a4b70b935d6480468b964cbbf1b","/static/css/main.cd87d892.chunk.css":"c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c","/static/css/main.cd87d892.chunk.css.map":"3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709","/static/js/2.3defa8e2.chunk.js.LICENSE.txt":"ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62","/static/js/3.5f8f43b2.chunk.js":"9e81fe5d5f14f2d617eb5061e5759006c916a6f2ec09afb58e614f8355ea7216","/static/js/3.5f8f43b2.chunk.js.map":"76d550a02f2ae9aec4a00cd7701b760298c38bad3b6c0f7bcd867c618c5f9ca8","/static/js/main.2bd0ad22.chunk.js":"c7c21f16a18791036951eeedff9847d6d70d1a470bb4004d62eb8a5ccec16ac8","/static/js/runtime-main.f28ff61d.js":"d81a8b4aeed7dd4845e931b6d2b0cc8686a3ada6c58c22e89b69b8b754b30d66","/static/js/runtime-main.f28ff61d.js.map":"e1840d2958538deb159b34ac3c3405b0bfacbb1b1a7eac7edc96af08b6238091","/static/js/main.2bd0ad22.chunk.js.map":"6703819cbb8dac34e58eaf6e0c843b799c75c92cee6c2ad09a3e3710dbb8cfaa","/static/js/2.3defa8e2.chunk.js":"42034ada280a6bec59d871bff12b3a61addd2d2b0c5c3b46560bf7bf9b94450c","/static/js/2.3defa8e2.chunk.js.map":"a9afb2b99d69d7487aba32a9f078f665faadacaae57b6b549e1fe8effc92101d"}}
+[debug] [2021-07-25T21:00:55.394Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/755a9b457b0be81d:populateFiles 200
+[debug] [2021-07-25T21:00:55.395Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/755a9b457b0be81d:populateFiles {"uploadRequiredHashes":["76d550a02f2ae9aec4a00cd7701b760298c38bad3b6c0f7bcd867c618c5f9ca8","42034ada280a6bec59d871bff12b3a61addd2d2b0c5c3b46560bf7bf9b94450c","6703819cbb8dac34e58eaf6e0c843b799c75c92cee6c2ad09a3e3710dbb8cfaa","07b4cfb75691a75ed56ffa349609805d9e7c9ab9282824b543606d271e5240f9","c7c21f16a18791036951eeedff9847d6d70d1a470bb4004d62eb8a5ccec16ac8","f8d5a793a9f62faec723d0be1aa72016ddc48a4b70b935d6480468b964cbbf1b","d81a8b4aeed7dd4845e931b6d2b0cc8686a3ada6c58c22e89b69b8b754b30d66","a9afb2b99d69d7487aba32a9f078f665faadacaae57b6b549e1fe8effc92101d","e1840d2958538deb159b34ac3c3405b0bfacbb1b1a7eac7edc96af08b6238091","9e81fe5d5f14f2d617eb5061e5759006c916a6f2ec09afb58e614f8355ea7216"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files"}
+[debug] [2021-07-25T21:00:55.415Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/76d550a02f2ae9aec4a00cd7701b760298c38bad3b6c0f7bcd867c618c5f9ca8 [none]
+[debug] [2021-07-25T21:00:55.422Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/76d550a02f2ae9aec4a00cd7701b760298c38bad3b6c0f7bcd867c618c5f9ca8 [stream]
+[debug] [2021-07-25T21:00:55.428Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/42034ada280a6bec59d871bff12b3a61addd2d2b0c5c3b46560bf7bf9b94450c [none]
+[debug] [2021-07-25T21:00:55.428Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/42034ada280a6bec59d871bff12b3a61addd2d2b0c5c3b46560bf7bf9b94450c [stream]
+[debug] [2021-07-25T21:00:55.431Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/6703819cbb8dac34e58eaf6e0c843b799c75c92cee6c2ad09a3e3710dbb8cfaa [none]
+[debug] [2021-07-25T21:00:55.433Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/6703819cbb8dac34e58eaf6e0c843b799c75c92cee6c2ad09a3e3710dbb8cfaa [stream]
+[debug] [2021-07-25T21:00:55.436Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/07b4cfb75691a75ed56ffa349609805d9e7c9ab9282824b543606d271e5240f9 [none]
+[debug] [2021-07-25T21:00:55.436Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/07b4cfb75691a75ed56ffa349609805d9e7c9ab9282824b543606d271e5240f9 [stream]
+[debug] [2021-07-25T21:00:55.439Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/c7c21f16a18791036951eeedff9847d6d70d1a470bb4004d62eb8a5ccec16ac8 [none]
+[debug] [2021-07-25T21:00:55.440Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/c7c21f16a18791036951eeedff9847d6d70d1a470bb4004d62eb8a5ccec16ac8 [stream]
+[debug] [2021-07-25T21:00:55.442Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/f8d5a793a9f62faec723d0be1aa72016ddc48a4b70b935d6480468b964cbbf1b [none]
+[debug] [2021-07-25T21:00:55.443Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/f8d5a793a9f62faec723d0be1aa72016ddc48a4b70b935d6480468b964cbbf1b [stream]
+[debug] [2021-07-25T21:00:55.445Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/d81a8b4aeed7dd4845e931b6d2b0cc8686a3ada6c58c22e89b69b8b754b30d66 [none]
+[debug] [2021-07-25T21:00:55.446Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/d81a8b4aeed7dd4845e931b6d2b0cc8686a3ada6c58c22e89b69b8b754b30d66 [stream]
+[debug] [2021-07-25T21:00:55.449Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/a9afb2b99d69d7487aba32a9f078f665faadacaae57b6b549e1fe8effc92101d [none]
+[debug] [2021-07-25T21:00:55.450Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/a9afb2b99d69d7487aba32a9f078f665faadacaae57b6b549e1fe8effc92101d [stream]
+[debug] [2021-07-25T21:00:55.460Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/e1840d2958538deb159b34ac3c3405b0bfacbb1b1a7eac7edc96af08b6238091 [none]
+[debug] [2021-07-25T21:00:55.461Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/e1840d2958538deb159b34ac3c3405b0bfacbb1b1a7eac7edc96af08b6238091 [stream]
+[debug] [2021-07-25T21:00:55.464Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/9e81fe5d5f14f2d617eb5061e5759006c916a6f2ec09afb58e614f8355ea7216 [none]
+[debug] [2021-07-25T21:00:55.465Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/9e81fe5d5f14f2d617eb5061e5759006c916a6f2ec09afb58e614f8355ea7216 [stream]
+[debug] [2021-07-25T21:00:55.467Z] [hosting][populate queue][FINAL] {"max":2664,"min":2664,"avg":2664,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2717}
+[debug] [2021-07-25T21:00:55.469Z] [hosting] uploads queued: 10
+[debug] [2021-07-25T21:00:58.164Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/f8d5a793a9f62faec723d0be1aa72016ddc48a4b70b935d6480468b964cbbf1b 200
+[debug] [2021-07-25T21:00:58.166Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/f8d5a793a9f62faec723d0be1aa72016ddc48a4b70b935d6480468b964cbbf1b [stream]
+[debug] [2021-07-25T21:00:58.234Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/07b4cfb75691a75ed56ffa349609805d9e7c9ab9282824b543606d271e5240f9 200
+[debug] [2021-07-25T21:00:58.235Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/07b4cfb75691a75ed56ffa349609805d9e7c9ab9282824b543606d271e5240f9 [stream]
+[debug] [2021-07-25T21:00:58.789Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/e1840d2958538deb159b34ac3c3405b0bfacbb1b1a7eac7edc96af08b6238091 200
+[debug] [2021-07-25T21:00:58.789Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/e1840d2958538deb159b34ac3c3405b0bfacbb1b1a7eac7edc96af08b6238091 [stream]
+[debug] [2021-07-25T21:00:58.791Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/76d550a02f2ae9aec4a00cd7701b760298c38bad3b6c0f7bcd867c618c5f9ca8 200
+[debug] [2021-07-25T21:00:58.792Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/76d550a02f2ae9aec4a00cd7701b760298c38bad3b6c0f7bcd867c618c5f9ca8 [stream]
+[debug] [2021-07-25T21:00:58.870Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/9e81fe5d5f14f2d617eb5061e5759006c916a6f2ec09afb58e614f8355ea7216 200
+[debug] [2021-07-25T21:00:58.871Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/9e81fe5d5f14f2d617eb5061e5759006c916a6f2ec09afb58e614f8355ea7216 [stream]
+[debug] [2021-07-25T21:00:58.873Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/6703819cbb8dac34e58eaf6e0c843b799c75c92cee6c2ad09a3e3710dbb8cfaa 200
+[debug] [2021-07-25T21:00:58.874Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/6703819cbb8dac34e58eaf6e0c843b799c75c92cee6c2ad09a3e3710dbb8cfaa [stream]
+[debug] [2021-07-25T21:00:58.954Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/42034ada280a6bec59d871bff12b3a61addd2d2b0c5c3b46560bf7bf9b94450c 200
+[debug] [2021-07-25T21:00:58.955Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/42034ada280a6bec59d871bff12b3a61addd2d2b0c5c3b46560bf7bf9b94450c [stream]
+[debug] [2021-07-25T21:00:58.976Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/a9afb2b99d69d7487aba32a9f078f665faadacaae57b6b549e1fe8effc92101d 200
+[debug] [2021-07-25T21:00:58.977Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/a9afb2b99d69d7487aba32a9f078f665faadacaae57b6b549e1fe8effc92101d [stream]
+[debug] [2021-07-25T21:00:59.045Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/c7c21f16a18791036951eeedff9847d6d70d1a470bb4004d62eb8a5ccec16ac8 200
+[debug] [2021-07-25T21:00:59.046Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/c7c21f16a18791036951eeedff9847d6d70d1a470bb4004d62eb8a5ccec16ac8 [stream]
+[debug] [2021-07-25T21:00:59.250Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/d81a8b4aeed7dd4845e931b6d2b0cc8686a3ada6c58c22e89b69b8b754b30d66 200
+[debug] [2021-07-25T21:00:59.251Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/755a9b457b0be81d/files/d81a8b4aeed7dd4845e931b6d2b0cc8686a3ada6c58c22e89b69b8b754b30d66 [stream]
+[debug] [2021-07-25T21:00:59.252Z] [hosting][upload queue][FINAL] {"max":3844,"min":2761,"avg":3390.4,"active":0,"complete":10,"success":10,"errored":0,"retried":0,"total":10,"elapsed":3854}
+[info] +  hosting[ray-hobby-projects]: file upload complete 
+[debug] [2021-07-25T21:00:59.255Z] [hosting] deploy completed after 6730ms
+[debug] [2021-07-25T21:00:59.259Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "ray-hobby-projects"
+    },
+    "site": "ray-hobby-projects",
+    "version": "sites/ray-hobby-projects/versions/755a9b457b0be81d"
+  }
+]
+[info] i  hosting[ray-hobby-projects]: finalizing version... 
+[debug] [2021-07-25T21:00:59.261Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T21:00:59.262Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T21:00:59.686Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 25 Jul 2021 21:01:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:00:59.729Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/755a9b457b0be81d?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-07-25T21:01:01.781Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 21:01:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:01:01.783Z] [hosting] finalized version for ray-hobby-projects: {"name":"sites/ray-hobby-projects/versions/755a9b457b0be81d","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-07-25T21:00:52.642261Z","createUser":{"email":"bluedragon.ray@gmail.com"},"finalizeTime":"2021-07-25T21:01:02.128564Z","finalizeUser":{"email":"bluedragon.ray@gmail.com"}}
+[info] +  hosting[ray-hobby-projects]: version finalized 
+[info] i  hosting[ray-hobby-projects]: releasing new version... 
+[debug] [2021-07-25T21:01:01.788Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/releases?version_name=sites/ray-hobby-projects/versions/755a9b457b0be81d  
+ {"message":null}
+[debug] [2021-07-25T21:01:03.986Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 21:01:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T21:53:07.723Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T21:53:07.726Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-07-25T21:53:07.727Z] CLI Version:   9.14.0
+[debug] [2021-07-25T21:53:07.727Z] Platform:      win32
+[debug] [2021-07-25T21:53:07.727Z] Node Version:  v14.5.0
+[debug] [2021-07-25T21:53:07.730Z] Time:          Mon Jul 26 2021 03:23:07 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T21:53:07.732Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T21:53:07.749Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T21:53:07.752Z] > authorizing via signed-in user (bluedragon.ray@gmail.com)
+[debug] [2021-07-25T21:53:07.752Z] [iam] checking project ray-hobby-projects for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-25T21:53:07.757Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T21:53:07.758Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T21:53:07.811Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-07-25T21:53:07.815Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T21:53:07.815Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T21:53:07.821Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-07-25T21:53:07.833Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\auth.js:141:12)
+    at refreshTokens (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\auth.js:448:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.getAccessToken (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\apiv2.js:144:23)
+    at async Client.addAuthHeader (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\apiv2.js:135:21)
+    at async Client.request (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\apiv2.js:93:34)
+    at async Object.getFirebaseProject (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.getDefaultHostingSite (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
+    at async Object.fn (C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\commands\deploy.js:65:9)
+    at async C:\Users\govin\AppData\Roaming\nvm\v14.5.0\node_modules\firebase-tools\lib\command.js:169:17
+[error] 
+[error] Error: Failed to get Firebase project ray-hobby-projects. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-07-25T22:04:00.053Z] ----------------------------------------------------------------------
+[debug] [2021-07-25T22:04:00.063Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-07-25T22:04:00.064Z] CLI Version:   9.14.0
+[debug] [2021-07-25T22:04:00.065Z] Platform:      win32
+[debug] [2021-07-25T22:04:00.065Z] Node Version:  v14.5.0
+[debug] [2021-07-25T22:04:00.067Z] Time:          Mon Jul 26 2021 03:34:00 GMT+0530 (India Standard Time)
+[debug] [2021-07-25T22:04:00.068Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-25T22:04:00.196Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-25T22:04:00.201Z] > authorizing via signed-in user (bluedragon.ray@gmail.com)
+[debug] [2021-07-25T22:04:00.203Z] [iam] checking project ray-hobby-projects for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-25T22:04:00.214Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T22:04:00.215Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T22:04:00.704Z] <<< HTTP RESPONSE 200 {"date":"Sun, 25 Jul 2021 22:04:01 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T22:04:00.745Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ray-hobby-projects:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-25T22:04:22.131Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. connect ETIMEDOUT 216.58.221.42:443
+[debug] [2021-07-25T22:04:22.134Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T22:04:22.135Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T22:04:22.506Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 25 Jul 2021 22:04:23 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T22:04:22.554Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects [none]
+[debug] [2021-07-25T22:04:23.299Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects 200
+[debug] [2021-07-25T22:04:23.300Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ray-hobby-projects {"projectId":"ray-hobby-projects","projectNumber":"484685860277","displayName":"hobby","name":"projects/ray-hobby-projects","resources":{"hostingSite":"ray-hobby-projects"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'ray-hobby-projects'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-07-25T22:04:23.315Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T22:04:23.316Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T22:04:23.711Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Sun, 25 Jul 2021 22:04:24 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T22:04:23.799Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-07-25T22:04:26.318Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 22:04:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[ray-hobby-projects]: beginning deploy... 
+[info] i  hosting[ray-hobby-projects]: found 22 files in build 
+[debug] [2021-07-25T22:04:26.597Z] > refreshing access token with scopes: []
+[debug] [2021-07-25T22:04:26.600Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T22:04:26.626Z] [hosting] hash cache [YnVpbGQ] stored for 22 files
+[debug] [2021-07-25T22:04:26.628Z] [hosting][hash queue][FINAL] {"max":212,"min":16,"avg":53.36363636363637,"active":0,"complete":22,"success":22,"errored":0,"retried":0,"total":22,"elapsed":256}
+[debug] [2021-07-25T22:04:26.985Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 25 Jul 2021 22:04:27 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T22:04:27.027Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9:populateFiles [none]
+[debug] [2021-07-25T22:04:27.028Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9:populateFiles {"files":{"/favicon.ico":"eae62e993eb980ec8a25058c39d5a51feab118bd2100c4deebb2a9c158ec11f9","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/logo512.png":"ee7e2f3fdb8209c4b6fd7bef6ba50d1b9dba30a25bb5c3126df057e1cb6f5331","/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/assets/jquery-ui.min.css":"9779699c8d65403c0f0e4a3ce0408a215415bd62c5c5d9c6ae92b50f9ba3dff4","/assets/jquery-ui.min.js":"f60130061236c6c2ace3266834eff2c9da07e78adece6f111b055d254efc0d08","/assets/jquery.js":"315845d15cc6d8850153e9d904cf4accd1f30b4e2dba34aac13934a4cc278418","/asset-manifest.json":"47b1e286cd60bfb2aab266711b110c925187d6c77f55c7c765be80eec7e5e8f2","/index.html":"975ee62723429135043241f667133527c48d3915ae1275d53f595e7859ab747b","/static/css/main.cd87d892.chunk.css":"c8325b827a0197419e7e3b651e236b017b5a1247092381402c8c706f4f660e1c","/static/css/main.cd87d892.chunk.css.map":"3ee7c8d9f1a2ec352806c5b690ec43b62822f794087bfcbefaabaddc8854c709","/static/js/2.3defa8e2.chunk.js.LICENSE.txt":"ddc4792b2a52bef254e55ff3b6e0725b8fcecd5336c932ecf29146d111549f62","/static/js/3.5f8f43b2.chunk.js":"9e81fe5d5f14f2d617eb5061e5759006c916a6f2ec09afb58e614f8355ea7216","/static/js/3.5f8f43b2.chunk.js.map":"76d550a02f2ae9aec4a00cd7701b760298c38bad3b6c0f7bcd867c618c5f9ca8","/static/js/main.43e03239.chunk.js":"b7463f020c9b59b762260bd779d58cb7fc6da82e8c6817a55f76914fd2bdc1f3","/static/js/runtime-main.f28ff61d.js":"d81a8b4aeed7dd4845e931b6d2b0cc8686a3ada6c58c22e89b69b8b754b30d66","/static/js/runtime-main.f28ff61d.js.map":"e1840d2958538deb159b34ac3c3405b0bfacbb1b1a7eac7edc96af08b6238091","/Cat-sound-mp3.mp3":"e6299ebf8ad4810bf7e471cf93969805920cb41002dffc6b867eb6a2bd9c4208","/static/js/main.43e03239.chunk.js.map":"059cac95049cae447406e935120858b0fd06c7d718027ce408463c970935de8b","/static/js/2.3defa8e2.chunk.js":"42034ada280a6bec59d871bff12b3a61addd2d2b0c5c3b46560bf7bf9b94450c","/static/js/2.3defa8e2.chunk.js.map":"a9afb2b99d69d7487aba32a9f078f665faadacaae57b6b549e1fe8effc92101d"}}
+[debug] [2021-07-25T22:04:29.090Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9:populateFiles 200
+[debug] [2021-07-25T22:04:29.091Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9:populateFiles {"uploadRequiredHashes":["975ee62723429135043241f667133527c48d3915ae1275d53f595e7859ab747b","e6299ebf8ad4810bf7e471cf93969805920cb41002dffc6b867eb6a2bd9c4208","059cac95049cae447406e935120858b0fd06c7d718027ce408463c970935de8b","b7463f020c9b59b762260bd779d58cb7fc6da82e8c6817a55f76914fd2bdc1f3","47b1e286cd60bfb2aab266711b110c925187d6c77f55c7c765be80eec7e5e8f2"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files"}
+[debug] [2021-07-25T22:04:29.098Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/975ee62723429135043241f667133527c48d3915ae1275d53f595e7859ab747b [none]
+[debug] [2021-07-25T22:04:29.099Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/975ee62723429135043241f667133527c48d3915ae1275d53f595e7859ab747b [stream]
+[debug] [2021-07-25T22:04:29.102Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/e6299ebf8ad4810bf7e471cf93969805920cb41002dffc6b867eb6a2bd9c4208 [none]
+[debug] [2021-07-25T22:04:29.104Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/e6299ebf8ad4810bf7e471cf93969805920cb41002dffc6b867eb6a2bd9c4208 [stream]
+[debug] [2021-07-25T22:04:29.107Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/059cac95049cae447406e935120858b0fd06c7d718027ce408463c970935de8b [none]
+[debug] [2021-07-25T22:04:29.108Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/059cac95049cae447406e935120858b0fd06c7d718027ce408463c970935de8b [stream]
+[debug] [2021-07-25T22:04:29.112Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/b7463f020c9b59b762260bd779d58cb7fc6da82e8c6817a55f76914fd2bdc1f3 [none]
+[debug] [2021-07-25T22:04:29.112Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/b7463f020c9b59b762260bd779d58cb7fc6da82e8c6817a55f76914fd2bdc1f3 [stream]
+[debug] [2021-07-25T22:04:29.115Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/47b1e286cd60bfb2aab266711b110c925187d6c77f55c7c765be80eec7e5e8f2 [none]
+[debug] [2021-07-25T22:04:29.116Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/47b1e286cd60bfb2aab266711b110c925187d6c77f55c7c765be80eec7e5e8f2 [stream]
+[debug] [2021-07-25T22:04:29.120Z] [hosting][populate queue][FINAL] {"max":2503,"min":2503,"avg":2503,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2525}
+[debug] [2021-07-25T22:04:29.122Z] [hosting] uploads queued: 5
+[debug] [2021-07-25T22:04:31.867Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/059cac95049cae447406e935120858b0fd06c7d718027ce408463c970935de8b 200
+[debug] [2021-07-25T22:04:31.869Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/059cac95049cae447406e935120858b0fd06c7d718027ce408463c970935de8b [stream]
+[debug] [2021-07-25T22:04:32.331Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/47b1e286cd60bfb2aab266711b110c925187d6c77f55c7c765be80eec7e5e8f2 200
+[debug] [2021-07-25T22:04:32.332Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/47b1e286cd60bfb2aab266711b110c925187d6c77f55c7c765be80eec7e5e8f2 [stream]
+[debug] [2021-07-25T22:04:32.392Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/b7463f020c9b59b762260bd779d58cb7fc6da82e8c6817a55f76914fd2bdc1f3 200
+[debug] [2021-07-25T22:04:32.393Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/b7463f020c9b59b762260bd779d58cb7fc6da82e8c6817a55f76914fd2bdc1f3 [stream]
+[debug] [2021-07-25T22:04:32.505Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/975ee62723429135043241f667133527c48d3915ae1275d53f595e7859ab747b 200
+[debug] [2021-07-25T22:04:32.506Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/975ee62723429135043241f667133527c48d3915ae1275d53f595e7859ab747b [stream]
+[debug] [2021-07-25T22:04:33.472Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/e6299ebf8ad4810bf7e471cf93969805920cb41002dffc6b867eb6a2bd9c4208 200
+[debug] [2021-07-25T22:04:33.474Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9/files/e6299ebf8ad4810bf7e471cf93969805920cb41002dffc6b867eb6a2bd9c4208 [stream]
+[debug] [2021-07-25T22:04:33.477Z] [hosting][upload queue][FINAL] {"max":4382,"min":2778,"avg":3422.2,"active":0,"complete":5,"success":5,"errored":0,"retried":0,"total":5,"elapsed":4384}
+[info] +  hosting[ray-hobby-projects]: file upload complete 
+[debug] [2021-07-25T22:04:33.485Z] [hosting] deploy completed after 7162ms
+[debug] [2021-07-25T22:04:33.490Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "ray-hobby-projects"
+    },
+    "site": "ray-hobby-projects",
+    "version": "sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9"
+  }
+]
+[info] i  hosting[ray-hobby-projects]: finalizing version... 
+[debug] [2021-07-25T22:04:33.504Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-25T22:04:33.506Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-25T22:04:33.849Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 25 Jul 2021 22:04:34 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T22:04:33.887Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2021-07-25T22:04:35.836Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 22:04:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-25T22:04:35.838Z] [hosting] finalized version for ray-hobby-projects: {"name":"sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2021-07-25T22:04:26.444283Z","createUser":{"email":"bluedragon.ray@gmail.com"},"finalizeTime":"2021-07-25T22:04:36.241008Z","finalizeUser":{"email":"bluedragon.ray@gmail.com"}}
+[info] +  hosting[ray-hobby-projects]: version finalized 
+[info] i  hosting[ray-hobby-projects]: releasing new version... 
+[debug] [2021-07-25T22:04:35.844Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/ray-hobby-projects/releases?version_name=sites/ray-hobby-projects/versions/f78ab49fcc2cc1e9  
+ {"message":null}
+[debug] [2021-07-25T22:04:37.832Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 25 Jul 2021 22:04:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
